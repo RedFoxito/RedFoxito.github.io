@@ -1,0 +1,133 @@
+body{
+    /* Asignando una familia de fuentes para nuestro texto*/
+    font-family: Impact,Arial;
+    color: #09015f;
+    font-size: 1.2rem; 
+    line-height: 1.3em;
+    margin: 0;
+    background-color: #28b5b5;
+}
+h1{
+    font-size: 2rem;/* Cuando especificamos valor relativo en relacion a la raiz r- root*/
+    line-height: 1.3em; /* cuano especificamos valor relativo de acuerdo al tamaño x default*/
+
+}
+
+
+p1{
+   margin-bottom: 1.6rem;
+   color:#ebebeb; 
+}
+.container{
+    width: 85%; /* Con este valor indicamos que se extienda hasta el 85%  del navegador */
+    max-width: 850px; /* con un anchp maximo de 850 pixeles*/
+    margin: 0 auto; /* Agregamos un margen de 0 arriba y abajo y automatico a los lados*/
+}
+
+.header{
+    background: #9dbeb9;
+    color: #9dbeb9;
+    padding: 2rem ;/* agragando relleno en proporcion de 2 (arriba y abajo) y de 0a los lados*/
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+}
+    .header a{
+        color: #ebebeb;
+        text-decoration: none; /* quitamos el subrayao que marca un enlace*/
+    }
+
+.logo-nav-container{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;/* centrando los elementos del contenedor*/
+    flex-wrap: wrap;
+
+}
+
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.4em;
+}
+.navigation {
+    width:100%;
+    margin-top: 1rem;
+
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5 rem 1rem;
+    transition:all 0.4s linear;
+    border-radius: 5px;
+
+}
+
+.navigation ul li a:hover{
+    background: #4d7d90;
+}
+
+
+.main{
+    padding-top: 12rem;
+}
+
+
+.footer{
+    background: #9dbeb9;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.redes-sociales{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:767px){
+
+.navigation ul li {
+    display: block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5 rem 1rem;
+    transition:all 0.4s linear;
+    border-radius: 5px;
+
+}
+
+.navigation ul li a:hover{
+    background: #4d7d90;
+}
+
+}
+
+.footer-container{
+    display: inline-block;
+    justify-content:space-between;
+}
+
+.redes-sociales .bubble i{
+    color: #ccc;
+    padding: 2rem;
+}
+
+.redes-sociales .bubble:hover i{
+    color: #1f2b40;
+}
