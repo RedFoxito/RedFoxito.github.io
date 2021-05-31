@@ -1,4 +1,4 @@
-/// Scroll up
+// Scroll up
 document.getElementById("button-up").addEventListener("click", scrollUp);
 
 function scrollUp(){
