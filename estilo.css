@@ -110,7 +110,6 @@ p1{
     border-color: rgba(0,0,0,0.1);
 }
 
-
 .footer{
     background: #9dbeb9;
     padding: 4rem 0;
@@ -146,7 +145,7 @@ p1{
 
 .footer-container{
     display: inline-block;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .redes-sociales .bubble i{
